@@ -25,6 +25,7 @@ public class Esempio2
         File ilMioFile = new File(nomefile);//non è un operazione pericolosa
         //va passato come parametro allo Scanner
         Scanner fr = new Scanner(ilMioFile);
+//        Scanner fr = new Scanner(new File(nomefile));
         while(fr.hasNextLine())
             System.out.println(fr.nextLine());
     }
